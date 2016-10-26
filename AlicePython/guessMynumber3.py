@@ -1,6 +1,9 @@
 import random
 import time
 def guessMyNumber():
+    
+    print("Hello Change")
+    
     print("Hello Pete, welcome to Guess My Number")
     time.sleep(1)
     print ("The computer is thinking of a number between 1-100")
@@ -36,4 +39,5 @@ def guessMyNumber():
             tries=tries+1
         else:
             errorCheck == "false"
+            
 guessMyNumber()
